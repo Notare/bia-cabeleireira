@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+header {
+  height: 60px;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: italic;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+
+nav a {
+  color: black;
+  font-size: 18px;
+}
+
+nav i:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+a:hover {
+  opacity: .5;
+}
+
+main {
+  background: url(./images/1.jpg);
+  height: 1068px;
+  color: white;
+}
+
+.blonde-section {
+  padding-top: 275px;
+}
+
+h1 {
+  color: white;
+  font-size: 8rem;
+  margin: 0;
+}
+
+.blonde-section p {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+main a {
+  color: white;
+}
+
+.btn {
+  background: black;
+  padding: 15px 20px;
+  color: white;
+}
+
+main .box {
+  background: black;
+  width: 245px;
+  margin-top: 130px;
+  padding: 40px 20px;
+}
+
+main .box p {
+  margin-bottom: 40px;
+}
+
+.btn-white {
+  background: white;
+  color: black;
+}
+
+strong {
+  font-size: 2rem;
+}
+
+.section2 .container {
+  display: flex;
+  gap: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section2 h3 {
+  margin: 20px 0;
+}
+
+.section2 p {
+  line-height: 1.5;
+  color: #888888;
+}
+
+.momentum {
+  background: #f3f5f7;
+}
+
+.momentum .container {
+  display: flex;
+  padding: 50px 0;
+  gap: 200px;
+}
+
+.momentum .container>* {
+  width: 50%;
+}
+
+.momentum h2 {
+  margin-bottom: 10px;
+  font-size: 3rem;
+}
+
+.momentum p {
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: #888888;
+}
+
+.momentum .btn {
+  color: white;
+}
+
+.employees .container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.employees .container > * {
+  margin: 50px 0;
+  position: relative;
+}
+
+.employees .btn {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  line-height: 1.5;
+  margin: 0 50px;
+}
+
+.color-day {
+  margin: 50px 0;
+}
+
+.color-day .container {
+  background: url('./images/9.jpg');
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.color-day .container > * {
+  margin-left: 100px;
+}
+
+.color-day .container p:nth-child(1) {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.color-day .container p:nth-child(2) {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.color-day .btn {
+  width: 213px;
+}
+
+.color-day strong {
+  font-size: 3rem;
+}
+
+.lookbook-bg {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.lookbook-bg h2 {
+  margin-bottom: 10px;
+}
+
+
+.lookbook {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.lookbook > * {
+  background: lightblue;
+  width: 350px;
+  height: 400px;
+}
+
+.lookbook section:nth-child(1) {
+  background: url('./images/lookbook1.jpeg');
+  background-size: cover;
+}
+
+.lookbook section:nth-child(2) {
+  background: url('./images/lookbook2.jpg');
+  background-size: cover;
+}
+
+.lookbook section:nth-child(3) {
+  background: url('./images/lookbook3.jpg');
+  background-size: cover;
+}
+
+.lookbook section:nth-child(4) {
+  background: url('./images/lookbook4.jpg');
+  background-size: cover;
+}
+
+.lookbook section:nth-child(5) {
+  background: url('./images/lookbook5.jpg');
+  background-size: cover;
+}
+
+.lookbook section:nth-child(6) {
+  background: url('./images/lookbook6.jpg');
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  nav li {
+    display: none;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .section2 .container {
+    flex-flow: column;
+  }
+
+  .momentum .container {
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .employees .container {
+    flex-flow: column;
+  }
+}
