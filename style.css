@@ -4,6 +4,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  font-family: "Cinzel", serif;
 }
 
 img {
@@ -28,10 +29,8 @@ nav {
   height: 100%;
 }
 
-.logo {
-  font-size: xx-large;
-  font-weight: bold;
-  font-style: italic;
+.logo img {
+  width: 400px;
 }
 
 nav ul {
@@ -46,11 +45,11 @@ nav a {
 
 nav i:hover {
   cursor: pointer;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 a:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 main {
@@ -119,6 +118,7 @@ strong {
 .section2 p {
   line-height: 1.5;
   color: #888888;
+  font-family: "Mulish", sans-serif;
 }
 
 .momentum {
@@ -131,7 +131,7 @@ strong {
   gap: 200px;
 }
 
-.momentum .container>* {
+.momentum .container > * {
   width: 50%;
 }
 
@@ -144,6 +144,7 @@ strong {
   line-height: 1.5;
   margin-bottom: 40px;
   color: #888888;
+  font-family: "Mulish", sans-serif;
 }
 
 .momentum .btn {
@@ -175,7 +176,7 @@ strong {
 }
 
 .color-day .container {
-  background: url('./images/9.jpg');
+  background: url("./images/9.jpg");
   background-size: cover;
   height: 500px;
   display: flex;
@@ -215,7 +216,6 @@ strong {
   margin-bottom: 10px;
 }
 
-
 .lookbook {
   display: flex;
   flex-flow: wrap;
@@ -231,33 +231,49 @@ strong {
 }
 
 .lookbook section:nth-child(1) {
-  background: url('./images/lookbook1.jpeg');
+  background: url("./images/lookbook1.png");
   background-size: cover;
 }
 
 .lookbook section:nth-child(2) {
-  background: url('./images/lookbook2.jpg');
+  background: url("./images/lookbook2.png");
   background-size: cover;
 }
 
 .lookbook section:nth-child(3) {
-  background: url('./images/lookbook3.jpg');
+  background: url("./images/lookbook3.png");
   background-size: cover;
 }
 
 .lookbook section:nth-child(4) {
-  background: url('./images/lookbook4.jpg');
+  background: url("./images/lookbook4.png");
   background-size: cover;
 }
 
 .lookbook section:nth-child(5) {
-  background: url('./images/lookbook5.jpg');
+  background: url("./images/lookbook5.png");
   background-size: cover;
 }
 
 .lookbook section:nth-child(6) {
-  background: url('./images/lookbook6.jpg');
+  background: url("./images/lookbook6.png");
   background-size: cover;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid black;
+  padding: 1rem 0;
+}
+
+footer p {
+  font-family: "Mulish", sans-serif;
+}
+
+footer a {
+  color: black;
+  text-decoration: underline;
+  font-family: "Mulish", sans-serif;
 }
 
 @media (max-width: 768px) {

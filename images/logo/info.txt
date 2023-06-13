@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: KaushanScript-Regular
+font link: https://fonts.google.com/specimen/Kaushan+Script
+font author: Impallari Type
+font author site: www.impallari.com
+
+
+icon designer: Kristina Margaryan
+icon designer link: /mkristina_94
+        
+{"bg":"transparent","icon-gradient-0":"#1E0B36","icon-gradient-1":"#CA3782","font":"#000000","slogan":"#141414"}
+      
