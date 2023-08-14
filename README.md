@@ -4,6 +4,8 @@ A promotional website for a hair salon. The website showcases the salon's servic
 
 **Link to project:** https://biacabeleireira.netlify.app
 
+<img src="./images/bia.gif" alt="A gif showing a demo of the project">
+
 ## How It's Made:
 
 **Tech used:** HTML and CSS
